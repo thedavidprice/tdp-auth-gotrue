@@ -1,8 +1,8 @@
-import { useAuth } from '@redwoodjs/auth'
 import { Form, TextField, PasswordField, Submit } from '@redwoodjs/forms'
 import { navigate, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
+import { useAuth } from 'src/auth'
 import GlobalLayout from 'src/layouts/GlobalLayout/GlobalLayout'
 
 const SigninPage = () => {

@@ -19,7 +19,7 @@ const Routes = () => {
       <Route path="/signin" page={SigninPage} name="signin" />
       <Route path="/signup" page={SignupPage} name="signup" />
       <Route path="/" page={HomePage} name="home" />
-      <Set wrap={ScaffoldLayout} title="UserExamples" titleTo="userExamples" buttonLabel="New UserExample" buttonTo="newUserExample">
+      <Set wrap={ScaffoldLayout} title="UserExamples" titleTo="userExamples" buttonLabel="New UserExample" buttonTo="newUserExample" private unauthenticated="home">
         <Route path="/user-examples/new" page={UserExampleNewUserExamplePage} name="newUserExample" />
         <Route path="/user-examples/{id:Int}/edit" page={UserExampleEditUserExamplePage} name="editUserExample" />
         <Route path="/user-examples/{id:Int}" page={UserExampleUserExamplePage} name="userExample" />

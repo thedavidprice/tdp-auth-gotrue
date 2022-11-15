@@ -1,5 +1,6 @@
-import { useAuth } from '@redwoodjs/auth'
 import { navigate, routes } from '@redwoodjs/router'
+
+import { useAuth } from 'src/auth'
 
 const SignoutBtn = () => {
   const { logOut } = useAuth()

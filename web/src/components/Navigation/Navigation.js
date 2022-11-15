@@ -1,6 +1,6 @@
-import { useAuth } from '@redwoodjs/auth'
 import { Link, routes } from '@redwoodjs/router'
 
+import { useAuth } from 'src/auth'
 import SignoutBtn from 'src/components/SignoutBtn/SignoutBtn'
 
 const Navigation = () => {
